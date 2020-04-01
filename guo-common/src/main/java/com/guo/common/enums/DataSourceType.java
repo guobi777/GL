@@ -2,11 +2,10 @@ package com.guo.common.enums;
 
 /**
  * 数据源
- * 
+ *
  * @author guo
  */
-public enum DataSourceType
-{
+public enum DataSourceType {
     /**
      * 主库
      */

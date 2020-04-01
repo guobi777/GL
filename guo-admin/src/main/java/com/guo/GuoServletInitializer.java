@@ -5,14 +5,12 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 
 /**
  * web容器中进行部署
- * 
+ *
  * @author guo
  */
-public class GuoServletInitializer extends SpringBootServletInitializer
-{
+public class GuoServletInitializer extends SpringBootServletInitializer {
     @Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder application)
-    {
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
         return application.sources(GuoAdminApplication.class);
     }
 }

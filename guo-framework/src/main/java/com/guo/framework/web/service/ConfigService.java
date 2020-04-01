@@ -5,23 +5,20 @@ import org.springframework.stereotype.Service;
 import com.guo.system.service.ISysConfigService;
 
 /**
- *
  * @author guo
  */
 @Service("config")
-public class ConfigService
-{
+public class ConfigService {
     @Autowired
     private ISysConfigService configService;
 
     /**
      * 根据键名查询参数配置信息
-     * 
+     *
      * @param configName 参数名称
      * @return 参数键值
      */
-    public String getKey(String configKey)
-    {
+    public String getKey(String configKey) {
         return configService.selectConfigByKey(configKey);
     }
 }

@@ -2,11 +2,10 @@ package com.guo.common.constant;
 
 /**
  * 通用常量信息
- * 
+ *
  * @author guo
  */
-public class Constants
-{
+public class Constants {
     /**
      * UTF-8 字符集
      */

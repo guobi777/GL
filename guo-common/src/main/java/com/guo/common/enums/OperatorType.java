@@ -2,11 +2,10 @@ package com.guo.common.enums;
 
 /**
  * 操作人类别
- * 
+ *
  * @author guo
  */
-public enum OperatorType
-{
+public enum OperatorType {
     /**
      * 其它
      */
